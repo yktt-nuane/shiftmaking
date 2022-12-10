@@ -10,7 +10,7 @@
 <!-- Screenshots -->
 
 | ![Screenshot 1](https://placehold.jp/32/3d4070/ffffff/720x480.png?text=Screenshot%201) | ![Screenshot 2](https://placehold.jp/32/703d40/ffffff/720x480.png?text=Screenshot%202) |
-|:--------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------:|
+| :------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------: |
 |                                      Screenshot 1                                      |                                      Screenshot 2                                      |
 
 ## Prerequisites
@@ -37,4 +37,3 @@ This project is licensed under the MIT License, see the [LICENSE](./LICENSE) for
 - [sforzando LLC. and Inc.](https://sforzando.co.jp/)
   - [Shin'ichiro Suzuki](https://github.com/shin-sforzando)
   - [Shiho Watanabe](https://github.com/shiho-sforzando)
-  
