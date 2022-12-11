@@ -1,21 +1,48 @@
 {
   "extends": [
     "next/core-web-vitals",
-  "eslint:recommended", 
-  "plugin:@typescript-eslint/recommended", 
-  "prettier" 
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
   ],
-"plugins": [
-  "simple-import-sort", 
-  "import", 
-  "unused-imports" 
-],
-"rules": {
-  "simple-import-sort/imports": "error", 
-  "simple-import-sort/exports": "error", 
-  "import/first": "error", 
-  "import/newline-after-import": "error", 
-  "import/no-duplicates": "error", 
-  "unused-imports/no-unused-imports": "error" 
-}
+  "plugins": ["import", "unused-imports"],
+  "rules": {
+    "import/first": "error",
+    "import/newline-after-import": "error",
+    "import/no-duplicates": "error",
+    "unused-imports/no-unused-imports": "error",
+    "import/order": [
+      "error",
+      {
+        "groups": [
+          "index",
+          "sibling",
+          "parent",
+          "internal",
+          "external",
+          "builtin",
+          "object",
+          "type"
+        ],
+        "pathGroups": [
+          {
+            "pattern": "{react,react-dom/**,react-router-dom}",
+            "group": "builtin",
+            "position": "before"
+          },
+          {
+            "pattern": "@src/**",
+            "group": "parent",
+            "position": "before"
+          }
+        ],
+        "newlines-between": "always",
+        "pathGroupsExcludedImportTypes": ["builtin"],
+        "alphabetize": {
+          "order": "asc" /* sort in ascending order. Options: ['ignore', 'asc', 'desc'] */,
+          "caseInsensitive": true /* ignore case. Options: [true, false] */
+        }
+      }
+    ]
+  }
 }
