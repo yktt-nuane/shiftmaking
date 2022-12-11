@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint --dir src",
+    "lint": "next lint --dir src --fix",
     "stylelint": "stylelint ./**/*.{css,scss} --fix",
     "prettier": "prettier --check --write './**/*.{js,jsx,ts,tsx,css,scss,md,mdx}'",
     "format": "npm run lint && npm run stylelint && npm run prettier"
