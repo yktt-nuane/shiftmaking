@@ -18,6 +18,8 @@
 - Node.js
   - Next.js
   - ESLint
+  - Prettier
+  - Stylelint
 
 ### Develop
 
