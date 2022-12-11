@@ -1,39 +1,32 @@
 {
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "[javascript]": {
     "editor.formatOnSave": true,
-  
-    "[css]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[scss]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[javascript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[typescript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[json]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-  
-    "stylelint.validate": ["css", "scss"],
-  
-    "eslint.validate": [
-      "javascript",
-      "javascriptreact",
-      "typescript",
-      "typescriptreact"
-    ],
-  
-    "editor.codeActionsOnSave": {
-      "source.fixAll.stylelint": true,
-      "source.fixAll.eslint": true,
-      "source.organizeImports": false 
-    },
-  
-    "css.validate": false,
-    "scss.validate": false,
-    "javascript.format.enable": false,
-    "typescript.format.enable": false
-  }
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.words": [
+    "shiftmaking",
+    "Tatsuro",
+    "Yokoyama",
+    "Shin'ichiro",
+    "Shiho",
+    "Watanabe",
+    "stylelint"
+  ]
+}
