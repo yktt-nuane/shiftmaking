@@ -8,9 +8,9 @@ const buildEslintCommand = (filenames) =>
 module.exports = {
   '*.{js,jsx,ts,tsx}': [buildEslintCommand],
   './**/*.{css,scss}': (filenames) => [
-    `npm run stylelint ${filenames.join(' ')}`,
+    `npm run lint:style ${filenames.join(' ')}`,
   ],
   './**/*.{js,jsx,ts,tsx,css,scss,md,mdx}': (filenames) => [
-    `npm run prettier ${filenames.join(' ')}`,
+    `npm run format ${filenames.join(' ')}`,
   ],
 }

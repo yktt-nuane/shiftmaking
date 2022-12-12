@@ -1,9 +1,7 @@
 name: Feat Form (機能追加; Form ver.)
 description: Suggest an idea for this project
-title: "feat: <title>"
-assignees:
-  - shin-sforzando
-labels: ["enhancement"]
+title: 'feat: <title>'
+labels: ['enhancement']
 body:
   - type: textarea
     attributes:
@@ -22,7 +20,7 @@ body:
 
         ex.
 
-        ```python
+        ```ts
         assert 1 + 1 == 2
         ```
     validations:
