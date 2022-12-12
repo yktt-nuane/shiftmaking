@@ -15,11 +15,11 @@
 
 ## Prerequisites
 
-- Node.js (version 18)
-  - Next.js (version 13)
-  - ESLint (version 8)
-  - Prettier (version 2)
-  - Stylelint (version 14)
+- Node.js (version 18.11.11 or higher)
+  - Next.js (version 13.0.6 or higher)
+  - ESLint
+  - Prettier
+  - Stylelint
 
 ### Develop
 
