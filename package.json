@@ -38,10 +38,5 @@
     "stylelint-config-recess-order": "^3.0.0",
     "stylelint-config-recommended-scss": "^8.0.0",
     "stylelint-scss": "^4.3.0"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run format"
-    }
   }
 }
