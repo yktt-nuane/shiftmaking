@@ -1,0 +1,20 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.addMissingImports": true,
+    "source.fixAll.eslint": true
+  },
+  "css.validate": false,
+  "scss.validate": false,
+  "files.insertFinalNewline": true,
+  "cSpell.words": [
+    "shiftmaking",
+    "Tatsuro",
+    "Yokoyama",
+    "Shin'ichiro",
+    "Shiho",
+    "Watanabe",
+    "stylelint"
+  ]
+}
