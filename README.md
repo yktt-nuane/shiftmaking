@@ -33,7 +33,12 @@
 ## How to
 
 ### Setup
+#### Environment Variables
 
+##### `.env.local`
+
+```.env.local
+SECRET_KEY=xxxxxxxx
 #### Reveal secrets
 
 To reveal secret files, `git secret reveal`.
