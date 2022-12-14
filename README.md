@@ -19,6 +19,13 @@
       - [Hide secrets](#hide-secrets)
       - [Environment Variables](#environment-variables)
         - [`.env.local`](#envlocal)
+      - [Reveal secrets](#reveal-secrets-1)
+      - [Hide secrets](#hide-secrets-1)
+    - [Develop](#develop)
+    - [Deploy](#deploy)
+  - [Misc](#misc)
+    - [LICENSE](#license)
+    - [Contributors](#contributors)
 
 ## Prerequisites
 
@@ -46,6 +53,8 @@ To hide secret files, `npm run hide`.
 
 ```.env.local
 SECRET_KEY=xxxxxxxx
+```
+
 #### Reveal secrets
 
 To reveal secret files, `npm run reveal`.
@@ -74,4 +83,3 @@ This project is licensed under the MIT License, see the [LICENSE](./LICENSE) for
 - [sforzando LLC. and Inc.](https://sforzando.co.jp/)
   - [Shin'ichiro Suzuki](https://github.com/shin-sforzando)
   - [Shiho Watanabe](https://github.com/shiho-sforzando)
-```
