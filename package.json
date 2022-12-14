@@ -10,7 +10,8 @@
     "lint:script": "next lint --dir src --fix",
     "lint:style": "stylelint ./**/*.{css,scss} --fix",
     "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,scss,md,mdx}'",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "hide": "git secret hide -m"
   },
   "dependencies": {
     "next": "13.0.6",
