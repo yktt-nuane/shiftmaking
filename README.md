@@ -16,6 +16,7 @@
   - [How to](#how-to)
     - [Setup](#setup)
       - [Reveal secrets](#reveal-secrets)
+      - [Hide secrets](#hide-secrets)
     - [Develop](#develop)
     - [Deploy](#deploy)
   - [Misc](#misc)
@@ -41,9 +42,11 @@
 SECRET_KEY=xxxxxxxx
 #### Reveal secrets
 
-To reveal secret files, `git secret reveal`.
+To reveal secret files, `npm run reveal`.
 
-To hide secret files, `git secret hide`.
+#### Hide secrets
+
+To hide secret files, `npm run hide`.
 
 ### Develop
 
