@@ -11,13 +11,16 @@
 | :------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------: |
 |                                      Screenshot 1                                      |                                      Screenshot 2                                      |
 
-- [Prerequisites](#prerequisites)
-- [How to](#how-to)
-  - [Develop](#develop)
-  - [Deploy](#deploy)
-- [Misc](#misc)
-  - [LICENSE](#license)
-  - [Contributors](#contributors)
+- [shiftmaking](#shiftmaking)
+  - [Prerequisites](#prerequisites)
+  - [How to](#how-to)
+    - [Setup](#setup)
+      - [Reveal secrets](#reveal-secrets)
+    - [Develop](#develop)
+    - [Deploy](#deploy)
+  - [Misc](#misc)
+    - [LICENSE](#license)
+    - [Contributors](#contributors)
 
 ## Prerequisites
 
@@ -28,6 +31,14 @@
   - Stylelint
 
 ## How to
+
+### Setup
+
+#### Reveal secrets
+
+To reveal secret files, `git secret reveal`.
+
+To hide secret files, `git secret hide`.
 
 ### Develop
 
