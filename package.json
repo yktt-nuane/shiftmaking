@@ -11,7 +11,8 @@
     "lint:style": "stylelint ./**/*.{css,scss} --fix",
     "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,scss,md,mdx}'",
     "prepare": "husky install",
-    "hide": "git secret hide -m"
+    "hide": "git secret hide -m",
+    "reveal": "git secret reveal -f"
   },
   "dependencies": {
     "next": "13.0.6",
