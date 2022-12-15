@@ -19,8 +19,6 @@
       - [Hide secrets](#hide-secrets)
       - [Environment Variables](#environment-variables)
         - [`.env.local`](#envlocal)
-      - [Reveal secrets](#reveal-secrets-1)
-      - [Hide secrets](#hide-secrets-1)
     - [Develop](#develop)
     - [Deploy](#deploy)
   - [Misc](#misc)
@@ -54,14 +52,6 @@ To hide secret files, `npm run hide`.
 ```.env.local
 SECRET_KEY=xxxxxxxx
 ```
-
-#### Reveal secrets
-
-To reveal secret files, `npm run reveal`.
-
-#### Hide secrets
-
-To hide secret files, `npm run hide`.
 
 ### Develop
 
