@@ -4,6 +4,7 @@
     "stylelint.vscode-stylelint",
     "dbaeumer.vscode-eslint",
     "streetsidesoftware.code-spell-checker",
-    "editorconfig.editorconfig"
+    "editorconfig.editorconfig",
+    "yzhang.markdown-all-in-one"
   ]
 }

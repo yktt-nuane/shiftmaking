@@ -11,13 +11,19 @@
 | :------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------: |
 |                                      Screenshot 1                                      |                                      Screenshot 2                                      |
 
-- [Prerequisites](#prerequisites)
-- [How to](#how-to)
-  - [Develop](#develop)
-  - [Deploy](#deploy)
-- [Misc](#misc)
-  - [LICENSE](#license)
-  - [Contributors](#contributors)
+- [shiftmaking](#shiftmaking)
+  - [Prerequisites](#prerequisites)
+  - [How to](#how-to)
+    - [Setup](#setup)
+      - [Reveal secrets](#reveal-secrets)
+      - [Hide secrets](#hide-secrets)
+      - [Environment Variables](#environment-variables)
+        - [`.env.local`](#envlocal)
+    - [Develop](#develop)
+    - [Deploy](#deploy)
+  - [Misc](#misc)
+    - [LICENSE](#license)
+    - [Contributors](#contributors)
 
 ## Prerequisites
 
@@ -28,6 +34,24 @@
   - Stylelint
 
 ## How to
+
+### Setup
+
+#### Reveal secrets
+
+To reveal secret files, `npm run reveal`.
+
+#### Hide secrets
+
+To hide secret files, `npm run hide`.
+
+#### Environment Variables
+
+##### `.env.local`
+
+```.env.local
+SECRET_KEY=xxxxxxxx
+```
 
 ### Develop
 
