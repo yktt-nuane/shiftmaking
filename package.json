@@ -13,7 +13,7 @@
     "prepare": "husky install",
     "hide": "git secret hide -m",
     "reveal": "git secret reveal -f",
-    "test:vitest": "vitest",
+    "test:vitest": "vitest --run",
     "coverage:vitest": "vitest run --coverage"
   },
   "dependencies": {
