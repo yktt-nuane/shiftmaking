@@ -12,7 +12,9 @@
     "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,scss,md,mdx}'",
     "prepare": "husky install",
     "hide": "git secret hide -m",
-    "reveal": "git secret reveal -f"
+    "reveal": "git secret reveal -f",
+    "test:vitest": "vitest",
+    "coverage:vitest": "vitest run --coverage"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^3.0.0",
@@ -31,6 +33,7 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-unused-imports": "^2.0.0",
     "husky": "^8.0.2",
+    "jsdom": "^20.0.3",
     "lint-staged": "^13.1.0",
     "prettier": "^2.8.1",
     "stylelint": "^14.16.0",
