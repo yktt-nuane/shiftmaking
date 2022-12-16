@@ -20,6 +20,7 @@
       - [Environment Variables](#environment-variables)
         - [`.env.local`](#envlocal)
     - [Develop](#develop)
+    - [Test](#test)
     - [Deploy](#deploy)
   - [Misc](#misc)
     - [LICENSE](#license)
@@ -56,6 +57,12 @@ SECRET_KEY=xxxxxxxx
 ### Develop
 
 `npm run dev` to start development server.
+
+### Test
+
+To test using Vitest, `npm run test:vitest`.
+
+TO check test coverage, `npm run coverage:vitest`
 
 ### Deploy
 
