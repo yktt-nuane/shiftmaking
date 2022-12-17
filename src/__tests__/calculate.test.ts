@@ -1,4 +1,4 @@
-import { calculate } from '@/pages/calculate'
+import { calculate } from '@/__tests__/calculate'
 
 import { describe, expect, it } from 'vitest'
 
