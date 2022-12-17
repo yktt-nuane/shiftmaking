@@ -33,6 +33,7 @@
   - ESLint
   - Prettier
   - Stylelint
+  - Vitest
 
 ## How to
 
