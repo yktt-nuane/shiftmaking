@@ -60,7 +60,7 @@ SECRET_KEY=xxxxxxxx
 
 ### Test
 
-To test using Vitest and check coverage, `npm run test:vitest`.
+To test using Vitest and check coverage, `npm run test:unit`.
 
 ### Deploy
 
