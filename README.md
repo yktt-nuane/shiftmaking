@@ -1,4 +1,4 @@
-# shiftmaking
+# shiftmaking <!-- omit in toc -->
 
 <!-- Badges -->
 
@@ -11,19 +11,21 @@
 | :------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------: |
 |                                      Screenshot 1                                      |                                      Screenshot 2                                      |
 
-- [shiftmaking](#shiftmaking)
-  - [Prerequisites](#prerequisites)
-  - [How to](#how-to)
-    - [Setup](#setup)
-      - [Reveal secrets](#reveal-secrets)
-      - [Hide secrets](#hide-secrets)
-      - [Environment Variables](#environment-variables)
-        - [`.env.local`](#envlocal)
-    - [Develop](#develop)
-    - [Deploy](#deploy)
-  - [Misc](#misc)
-    - [LICENSE](#license)
-    - [Contributors](#contributors)
+- [Prerequisites](#prerequisites)
+- [How to](#how-to)
+  - [Setup](#setup)
+    - [Reveal Secrets](#reveal-secrets)
+    - [Hide Secrets](#hide-secrets)
+    - [Environment Variables](#environment-variables)
+      - [`.env.local`](#envlocal)
+  - [Develop](#develop)
+  - [Test](#test)
+    - [Unit Testing](#unit-testing)
+    - [E2E Testing](#e2e-testing)
+  - [Deploy](#deploy)
+- [Misc](#misc)
+  - [LICENSE](#license)
+  - [Contributors](#contributors)
 
 ## Prerequisites
 
@@ -32,18 +34,19 @@
   - ESLint
   - Prettier
   - Stylelint
+  - Vitest
 
 ## How to
 
 ### Setup
 
-#### Reveal secrets
+#### Reveal Secrets
 
-To reveal secret files, `npm run reveal`.
+`npm run reveal` to reveal secret files.
 
-#### Hide secrets
+#### Hide Secrets
 
-To hide secret files, `npm run hide`.
+`npm run hide` to hide secret files.
 
 #### Environment Variables
 
@@ -56,6 +59,18 @@ SECRET_KEY=xxxxxxxx
 ### Develop
 
 `npm run dev` to start development server.
+
+### Test
+
+#### Unit Testing
+
+`npm run test:unit` to run unit tests.
+
+Then, coverage reports are output to `coverage/`.
+
+#### E2E Testing
+
+(T. B. D.)
 
 ### Deploy
 

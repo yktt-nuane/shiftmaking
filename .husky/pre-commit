@@ -4,3 +4,4 @@
 
 npx lint-staged
 npm run hide
+npm run test
