@@ -1,4 +1,4 @@
-# shiftmaking
+# shiftmaking <!-- omit in toc -->
 
 <!-- Badges -->
 
@@ -11,22 +11,21 @@
 | :------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------: |
 |                                      Screenshot 1                                      |                                      Screenshot 2                                      |
 
-- [shiftmaking](#shiftmaking)
-  - [Prerequisites](#prerequisites)
-  - [How to](#how-to)
-    - [Setup](#setup)
-      - [Reveal Secrets](#reveal-secrets)
-      - [Hide Secrets](#hide-secrets)
-      - [Environment Variables](#environment-variables)
-        - [`.env.local`](#envlocal)
-    - [Develop](#develop)
-    - [Test](#test)
-      - [Unit Testing](#unit-testing)
-      - [E2E Testing](#e2e-testing)
-    - [Deploy](#deploy)
-  - [Misc](#misc)
-    - [LICENSE](#license)
-    - [Contributors](#contributors)
+- [Prerequisites](#prerequisites)
+- [How to](#how-to)
+  - [Setup](#setup)
+    - [Reveal Secrets](#reveal-secrets)
+    - [Hide Secrets](#hide-secrets)
+    - [Environment Variables](#environment-variables)
+      - [`.env.local`](#envlocal)
+  - [Develop](#develop)
+  - [Test](#test)
+    - [Unit Testing](#unit-testing)
+    - [E2E Testing](#e2e-testing)
+  - [Deploy](#deploy)
+- [Misc](#misc)
+  - [LICENSE](#license)
+  - [Contributors](#contributors)
 
 ## Prerequisites
 
