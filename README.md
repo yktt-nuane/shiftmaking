@@ -11,20 +11,21 @@
 | :------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------: |
 |                                      Screenshot 1                                      |                                      Screenshot 2                                      |
 
-- [shiftmaking](#shiftmaking)
-  - [Prerequisites](#prerequisites)
-  - [How to](#how-to)
-    - [Setup](#setup)
-      - [Reveal secrets](#reveal-secrets)
-      - [Hide secrets](#hide-secrets)
-      - [Environment Variables](#environment-variables)
-        - [`.env.local`](#envlocal)
-    - [Develop](#develop)
-    - [Test](#test)
-    - [Deploy](#deploy)
-  - [Misc](#misc)
-    - [LICENSE](#license)
-    - [Contributors](#contributors)
+- [Prerequisites](#prerequisites)
+- [How to](#how-to)
+  - [Setup](#setup)
+    - [Reveal Secrets](#reveal-secrets)
+    - [Hide Secrets](#hide-secrets)
+    - [Environment Variables](#environment-variables)
+      - [`.env.local`](#envlocal)
+  - [Develop](#develop)
+  - [Test](#test)
+    - [Unit Testing](#unit-testing)
+    - [E2E Testing](#e2e-testing)
+  - [Deploy](#deploy)
+- [Misc](#misc)
+  - [LICENSE](#license)
+  - [Contributors](#contributors)
 
 ## Prerequisites
 
@@ -39,11 +40,11 @@
 
 ### Setup
 
-#### Reveal secrets
+#### Reveal Secrets
 
 To reveal secret files, `npm run reveal`.
 
-#### Hide secrets
+#### Hide Secrets
 
 To hide secret files, `npm run hide`.
 
@@ -61,7 +62,15 @@ SECRET_KEY=xxxxxxxx
 
 ### Test
 
-To test using Vitest and check coverage, `npm run test:unit`.
+#### Unit Testing
+
+`npm run test:unit` to run unit tests.
+
+Coverage reports are output to `coverage/`.
+
+#### E2E Testing
+
+(T. B. D.)
 
 ### Deploy
 
