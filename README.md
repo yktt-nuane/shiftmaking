@@ -66,7 +66,7 @@ SECRET_KEY=xxxxxxxx
 
 `npm run test:unit` to run unit tests.
 
-Coverage reports are output to `coverage/`.
+Then, coverage reports are output to `coverage/`.
 
 #### E2E Testing
 
