@@ -11,21 +11,22 @@
 | :------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------: |
 |                                      Screenshot 1                                      |                                      Screenshot 2                                      |
 
-- [Prerequisites](#prerequisites)
-- [How to](#how-to)
-  - [Setup](#setup)
-    - [Reveal Secrets](#reveal-secrets)
-    - [Hide Secrets](#hide-secrets)
-    - [Environment Variables](#environment-variables)
-      - [`.env.local`](#envlocal)
-  - [Develop](#develop)
-  - [Test](#test)
-    - [Unit Testing](#unit-testing)
-    - [E2E Testing](#e2e-testing)
-  - [Deploy](#deploy)
-- [Misc](#misc)
-  - [LICENSE](#license)
-  - [Contributors](#contributors)
+- [shiftmaking](#shiftmaking)
+  - [Prerequisites](#prerequisites)
+  - [How to](#how-to)
+    - [Setup](#setup)
+      - [Reveal Secrets](#reveal-secrets)
+      - [Hide Secrets](#hide-secrets)
+      - [Environment Variables](#environment-variables)
+        - [`.env.local`](#envlocal)
+    - [Develop](#develop)
+    - [Test](#test)
+      - [Unit Testing](#unit-testing)
+      - [E2E Testing](#e2e-testing)
+    - [Deploy](#deploy)
+  - [Misc](#misc)
+    - [LICENSE](#license)
+    - [Contributors](#contributors)
 
 ## Prerequisites
 
@@ -42,11 +43,11 @@
 
 #### Reveal Secrets
 
-To reveal secret files, `npm run reveal`.
+`npm run reveal` to reveal secret files.
 
 #### Hide Secrets
 
-To hide secret files, `npm run hide`.
+`npm run hide` to hide secret files.
 
 #### Environment Variables
 
