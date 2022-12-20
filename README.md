@@ -2,6 +2,7 @@
 
 <!-- Badges -->
 
+[![CI](https://github.com/yktt-nuane/shiftmaking/actions/workflows/ci.yml/badge.svg)](https://github.com/yktt-nuane/shiftmaking/actions/workflows/ci.yml)
 [![Last Commit](https://img.shields.io/github/last-commit/yktt-nuane/shiftmaking)](https://github.com/yktt-nuane/shiftmaking/graphs/commit-activity)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
