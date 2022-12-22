@@ -1,9 +1,11 @@
 import styles from '@/styles/Home.module.css'
 
+import { log } from 'next-axiom'
 import Head from 'next/head'
 import Image from 'next/image'
 
 export default function Home() {
+  log.debug('Home')
   return (
     <div className={styles.container}>
       <Head>
