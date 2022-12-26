@@ -5,7 +5,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 
 export default function Home() {
-  log.info('This is message to confirm SSG')
+  log.debug('This is message to confirm SSG')
   return (
     <div className={styles.container}>
       <Head>
