@@ -54,7 +54,7 @@
 ##### `.env.local`
 
 ```.env.local
-SECRET_KEY=xxxxxxxx
+SECRET=***
 ```
 
 ### Develop
