@@ -5,7 +5,20 @@ import Head from 'next/head'
 import Image from 'next/image'
 
 export default function Home() {
-  log.debug('This is message to confirm SSG')
+  const PLATFORM_ENV = process.env.NEXT_PUBLIC_VERCEL_ENV
+  switch (PLATFORM_ENV) {
+    case 'production':
+      log.info('This log is output from Vercel(Production).')
+      break
+    case 'preview':
+      log.info('This log is output from Vercel(Preview).')
+      break
+    case 'development':
+      log.info('This log is output from Vercel(Development).')
+      break
+    default:
+      log.info('This log is output from Unknown.') // Perhaps it is someone's local.
+  }
   return (
     <div className={styles.container}>
       <Head>
