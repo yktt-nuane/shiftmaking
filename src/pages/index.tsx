@@ -3,7 +3,11 @@ import styles from '@/styles/Home.module.css'
 import Head from 'next/head'
 import Image from 'next/image'
 
-export default function Home() {
+type Props = {
+  LOG_TEST: any
+}
+
+export default function Home({ LOG_TEST }: Props) {
   return (
     <div className={styles.container}>
       <Head>
@@ -16,6 +20,7 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
+        <h2>{LOG_TEST}</h2>
 
         <p className={styles.description}>
           Get started by editing{' '}
@@ -69,4 +74,10 @@ export default function Home() {
       </footer>
     </div>
   )
+}
+
+export const getServerSideProps = async () => {
+  return {
+    props: { LOG_TEST: process.env.LOG_TEST }, // will be passed to the page component as props
+  }
 }
