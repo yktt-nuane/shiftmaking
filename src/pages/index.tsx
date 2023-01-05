@@ -4,7 +4,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 
 type Props = {
-  LOG_TEST: any
+  LOG_TEST: string
 }
 
 export default function Home({ LOG_TEST }: Props) {
