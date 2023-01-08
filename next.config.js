@@ -4,6 +4,9 @@ const { withAxiom } = require('next-axiom')
 const nextConfig = withAxiom({
   reactStrictMode: true,
   swcMinify: true,
+  experimental: {
+    appDir: true,
+  },
 })
 
 module.exports = nextConfig
