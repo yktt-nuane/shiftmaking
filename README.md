@@ -54,7 +54,8 @@
 ##### `.env.local`
 
 ```.env.local
-SECRET_KEY=xxxxxxxx
+LOG_TEST=**********
+NEXT_PUBLIC_AXIOM_INGEST_ENDPOINT==**********
 ```
 
 ### Develop

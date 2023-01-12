@@ -17,5 +17,7 @@
     "Watanabe",
     "stylelint",
     "Vitest"
-  ]
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true
 }
